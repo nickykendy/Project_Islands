@@ -27,7 +27,7 @@ func exit() -> void:
 
 
 func get_state_name() -> String:
-	return "Chase"
+	return "WormChase"
 
 
 func chase_target():

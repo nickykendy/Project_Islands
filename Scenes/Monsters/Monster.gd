@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-onready var fsm := StateMachine.new(self, $States, $States/Idle, true)
+onready var fsm := StateMachine.new(self, $States, $States/Idle, false)
 onready var ray := $RayCast2D
 
 var idle_done := false
